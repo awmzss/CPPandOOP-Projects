@@ -31,6 +31,29 @@ A comprehensive library management system operated by an admin to maintain book 
 - Searching for books not only by full names but also by any prefix of the name  
 - Displaying the list of users who borrowed a specific book  
 - Printing the entire library's book inventory, sorted by either book IDs or book names  
-- Printing all registered users on the system  
+- **Printing all registered users on the system**  
+
+---
+
+### Project 3: AskMe
+**Concepts Applied:**  
+- Templates, Standard Template Library (STL)  
+- Files and Streams  
+
+**Description:**  
+A simple simulation of the Ask.fm website with a file-based database system. The application provides functionalities similar to the original platform, including:  
+- User registration (sign up) and authentication (sign in)  
+- Asking questions to other users, including the ability to create one-level threads on existing questions  
+- Answering questions directed to the user  
+- Deleting questions:  
+  - If the question is part of a thread, only that question is deleted  
+  - If it's a parent question, it is deleted along with all its associated threads for consistency  
+- Viewing questions:  
+  - Questions asked by the user  
+  - Questions received by the user  
+  - The complete feed of all questions in the database  
+- Maintaining consistency using unique IDs for users and questions  
+- Listing all registered users in the system  
+- Supporting anonymous questions, with each user having the option to allow or block anonymous questions for themselves  
 
 More projects will be added as new concepts are covered in the course. Stay tuned!
