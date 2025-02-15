@@ -31,7 +31,7 @@ A comprehensive library management system operated by an admin to maintain book 
 - Searching for books not only by full names but also by any prefix of the name  
 - Displaying the list of users who borrowed a specific book  
 - Printing the entire library's book inventory, sorted by either book IDs or book names  
-- **Printing all registered users on the system**  
+- Printing all registered users on the system  
 
 ---
 
